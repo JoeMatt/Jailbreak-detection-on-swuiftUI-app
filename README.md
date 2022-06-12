@@ -20,3 +20,4 @@ yes you can do what you want with this project but i  appreciated if you tag me
 V1.0 Initial released. 
 ## Image:
 ![This is an image](/assets/1.PNG)
+![This is an image](/assets/2.png)
