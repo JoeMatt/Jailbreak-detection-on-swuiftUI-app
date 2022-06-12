@@ -19,4 +19,4 @@ yes you can do what you want with this project but i  appreciated if you tag me
 ## Update : 
 V1.0 Initial released. 
 ## Image:
-![This is an image](/assets/1.png)
+![This is an image](/assets/1.PNG)
