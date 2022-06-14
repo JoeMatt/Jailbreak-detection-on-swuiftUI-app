@@ -10,7 +10,6 @@
 		9C523C862856780100B00E13 /* IsJailbroken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C523C852856780100B00E13 /* IsJailbroken.swift */; };
 		9C523C8828568F0800B00E13 /* NavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C523C8728568F0800B00E13 /* NavBar.swift */; };
 		9C523C8A28568F5300B00E13 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C523C8928568F5300B00E13 /* Setting.swift */; };
-		9C523C8C2856925700B00E13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C523C8B2856925700B00E13 /* Assets.xcassets */; };
 		9CD53F772856712200A68A3D /* JB_DetectionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD53F762856712200A68A3D /* JB_DetectionApp.swift */; };
 		9CD53F792856712200A68A3D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD53F782856712200A68A3D /* ContentView.swift */; };
 		9CD53F7E2856712300A68A3D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CD53F7D2856712300A68A3D /* Preview Assets.xcassets */; };
@@ -40,7 +39,6 @@
 		9C523C852856780100B00E13 /* IsJailbroken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsJailbroken.swift; sourceTree = "<group>"; };
 		9C523C8728568F0800B00E13 /* NavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBar.swift; sourceTree = "<group>"; };
 		9C523C8928568F5300B00E13 /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
-		9C523C8B2856925700B00E13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
 		9CD53F732856712200A68A3D /* JB-Detection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JB-Detection.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CD53F762856712200A68A3D /* JB_DetectionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JB_DetectionApp.swift; sourceTree = "<group>"; };
 		9CD53F782856712200A68A3D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -105,7 +103,6 @@
 				9C523C8728568F0800B00E13 /* NavBar.swift */,
 				9C523C8928568F5300B00E13 /* Setting.swift */,
 				9C523C852856780100B00E13 /* IsJailbroken.swift */,
-				9C523C8B2856925700B00E13 /* Assets.xcassets */,
 				9CD53F7C2856712300A68A3D /* Preview Content */,
 			);
 			path = "JB-Detection";
@@ -240,7 +237,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C523C8C2856925700B00E13 /* Assets.xcassets in Resources */,
 				9CD53F7E2856712300A68A3D /* Preview Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
