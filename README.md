@@ -6,7 +6,7 @@
 ## Support 
 📱 works from iOS 14 (older iOS not tested may work ) 
 Important : cannot be "tricked" with "bypassed tweak " tested with "liberty lite " and "tweak configurator"
-## Who madde this :
+## Who made this :
 Made with ❤️ by Max21910 in 🇫🇷
 ## Description
 A simple way to check if the device that run your app is jailbroken and can potentially make tweaks that is normally not allowed 
