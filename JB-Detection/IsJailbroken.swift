@@ -35,6 +35,7 @@ func IsJailbroken() { //name of the function
 
 	for path in jbFilePaths where FileManager.default.fileExists(atPath: path) {
 		Jailbroken = true // if this is true the iphone has a jailbroken app installed which is not possible on a "factory" iphone so the iphone is jilbroken
+		return // only need to set `Jailbroken = true` once
 	}
 	// the iphone look like is not jailbroken
 }
