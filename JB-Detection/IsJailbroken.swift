@@ -30,14 +30,18 @@ func IsJailbroken() { //name of the function
 		"/Library/MobileSubstrate/DynamicLibraries/PreferenceLoader.dylib",
 		"/Library/MobileSubstrate/DynamicLibraries/PreferenceLoader.plist",
 		"/Library/MobileSubstrate/DynamicLibraries/RocketBootstrap.dylib",
-		"/Library/MobileSubstrate/DynamicLibraries/RocketBootstrap.plist"
+		"/Library/MobileSubstrate/DynamicLibraries/RocketBootstrap.plist",
+		"/bin/bash",
+                "/usr/sbin/sshd",
+                "/etc/apt",
+                "/usr/bin/ssh"
 	]
 
 	for path in jbFilePaths where FileManager.default.fileExists(atPath: path) {
 		Jailbroken = true // if this is true the iphone has a jailbroken app installed which is not possible on a "factory" iphone so the iphone is jilbroken
 		return // only need to set `Jailbroken = true` once
 	}
-	// the iphone look like is not jailbroken
+	
 }
 
 
